@@ -1,0 +1,164 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+}
+.product-container {
+  width: 50%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-container, p {
+  color: green;
+  font-size: 20px;
+}
+.related-product-hover:hover {
+  background-color: #A1DD70;
+}
+.related-product-hover:hover {
+opacity: 1;
+}
+header {
+background-image: url(https://web.us.edusercontent.com/o455vr1loim4s192ec3l4toosc/Girl-and-bike.png);
+background-size: cover;
+padding-top: 200px;
+background-position: center;
+font-size: 50px;
+text-align: center;
+text-shadow: 0px 0px 10px #000;
+height: 300px;
+line-height: 100px;
+
+}
+header, p {
+  margin-top: 30px;
+}
+.related-product-hover {
+background-color: #A1DD70;
+color: black;
+font-size: 16px;
+padding: 16px 32px;
+position: absolute;
+top: 10%;
+right: 0%;
+left: 65%;
+opacity: 0.5;
+}
+ 
+#absolute-div {
+  top: 150px;
+  font-size: 20px;
+  text-align: center;
+}
+nav {
+  background-color: pink;
+  border-top: 2px solid green;
+  border-bottom: 1px solid green;
+  border-right: 1px solid pink;
+  border-left: 1px solid pink;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  text-align: right;
+  width: 99%;
+  padding-right: 10px;
+  position: fixed;
+  top: 0px; 
+  z-index: 1;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: none;
+  width: 60px;
+  text-align: right;
+  font-size: 14px;
+}
+nav a:hover {
+ background-color: white;
+}
+body {
+  background-color: white;
+  border-top: 2px solid green;
+  border-bottom: 1px solid green;
+  border-right: 1px solid pink;
+  border-left: 1px solid pink;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  padding-right: 10px;  
+}
+.promo-code {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+
+}
+.promo-flower {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.best {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.nice {
+font-size: 15px;
+width: 90%;
+background-color:skyblue;
+margin: 0px auto;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+border: white;
+margin-bottom: 40px;
+border: 4px solid pink;
+border-radius: 10%;
+height:200px;
+position: relative;
+}
+.nice:hover {
+  background-color: #A1DD70;
+}
+.nice:hover img {
+  opacity: 0.8;
+}
+.nice .related-product-name {
+  background-color: pink;
+  border: 2px solid green;
+  color: black;
+  width: 140px;
+  position: absolute;
+  top: 8px;
+  visibility: hidden;
+}
+.ppp {
+   width: 140px; 
+   border-radius: 50%;
+   height: 200px;
+   object-fit: cover;
+}
+.nice:hover .related-product-name {
+  visibility: visible;
+}
+footer {
+  background-color: pink;
+  border-top: 2px solid green;
+  border-bottom: 1px solid green;
+  border-right: 1px solid pink;
+  border-left: 1px solid pink;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  padding-right: 10px;  
+}
