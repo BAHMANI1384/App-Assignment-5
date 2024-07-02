@@ -113,14 +113,30 @@ border-top: 3px solid pink;
 border-bottom: 3px solid pink;
 border-right: 3px solid pink;
 border-left: 3px solid pink;
- 
+position: relative;
+}
+.nice:hover {
+  background-color: #A1DD70;
+}
+.nice:hover img {
+  opacity: 0.8;
 }
 .text {
   background-color: pink;
+  border: 2px solid green;
+  color: black;
+  width: 158px;
+  position: absolute;
+  bottom: 8px;
+  visibility: hidden;
+  
 }
 .ppp {
    width: 140px; 
    
+}
+.nice:hover .text {
+  visibility: visible;
 }
 footer {
   background-color: pink;

@@ -1,0 +1,136 @@
+header {
+  text-align: left;
+  font-size: 50px;
+  font-family:  "Flowers Shop", serif;
+  font-weight: bold; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+nav {
+  background-color: pink;
+  border-top: 2px solid green;
+  border-bottom: 1px solid green;
+  border-right: 1px solid pink;
+  border-left: 1px solid pink;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  text-align: right;
+  width: 99%;
+  padding-right: 10px;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: none;
+  width: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+nav a:hover {
+ background-color: white;
+}
+body {
+  background-color: skyblue;
+ 
+}
+.product-container {
+  background-color: white;
+  width: 770px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  padding-right: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  background-position: center;
+  width: 97%; 
+  height: 480px; 
+  object-fit: cover;
+  }
+  .fpic {
+    font-size: 20px;
+   width: 100%;
+   height: 500px;
+   margin-right: 10px;
+   border: white;
+   margin-bottom: 20px;
+    position: relative;
+  }
+  .fpic:hover {
+    background-color: black;
+  }
+  .fpic:hover img {
+    opacity: 0.8;
+  }
+  .fpic .hover-img {
+    background-color: black;
+   color: white;
+   width: 300px;
+   height: 50px;
+   position: absolute;
+   top: 8px;
+   left: 10px;
+   visibility: hidden;
+  }
+  .fpic:hover .hover-img {
+    visibility: visible;
+  }
+  h1 {
+    text-align: left;
+    font-size: 40px;
+    font-family:  "Flowers Shop", serif;
+    font-weight: bold; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .members {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  } 
+  .nice {
+    width: 140px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%; 
+  }
+  .member-name {
+  color: green;
+  width: 100px;
+  padding-left: 20px;
+  }
+  .pic {
+    width: 140px; 
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+ }
+  footer {
+    background-color: pink;
+    border-top: 2px solid green;
+    border-bottom: 1px solid green;
+    border-right: 1px solid pink;
+    border-left: 1px solid pink;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    padding-right: 10px;  
+  }
+  
+  
